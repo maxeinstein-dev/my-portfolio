@@ -12,10 +12,10 @@ const Hero = () => {
     display: "flex",
     alignItems: "center",
     [theme.breakpoints.up("xs")]: {
-      paddingTop: "100px"
+      paddingTop: "100px",
     }, // <= mobile
     [theme.breakpoints.up("md")]: {
-      paddingTop: "0px"
+      paddingTop: "0px",
     }, // >= mobile
   }));
 
@@ -24,6 +24,17 @@ const Hero = () => {
     borderRadius: "50%",
     border: `1px solid ${theme.palette.primary.contrastText}`,
   }));
+
+  // Funções de clique
+  const handleDownloadClick = () => {
+    console.log("Download CV button clicked");
+    // Adicione a lógica de download aqui
+  };
+
+  const handleContactClick = () => {
+    console.log("Contact Me button clicked");
+    // Adicione a lógica de contato aqui
+  };
 
   return (
     <>
@@ -70,7 +81,7 @@ const Hero = () => {
                   display="flex"
                   justifyContent="center"
                 >
-                  <StyledButton>
+                  <StyledButton onClick={handleDownloadClick}>
                     <DownloadIcon />
                     <Typography>Download CV</Typography>
                   </StyledButton>
@@ -82,7 +93,7 @@ const Hero = () => {
                   display="flex"
                   justifyContent="center"
                 >
-                  <StyledButton>
+                  <StyledButton onClick={handleContactClick}>
                     <MailOutlineIcon />
                     <Typography>Contact Me</Typography>
                   </StyledButton>
