@@ -28,3 +28,6 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+- `Os colaboradores vivem para ajudar os outros.` Eu gosto de trabalhar em equipe e me orgulho de ser a pessoa certa para obter apoio, especialmente quando o desafio parece uma aventura. Fazer com que todos se sintam ouvidos é o meu superpoder. Eu me destaco em funções inovadoras centradas no desenvolvimento web, engenharia de inteligência artificial, engenharia de software e treinamento técnico.
