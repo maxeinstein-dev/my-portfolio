@@ -1,35 +1,25 @@
-# React + TypeScript + Vite
+# Portfólio — Maxsuel Einstein
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém meu portfólio pessoal como desenvolvedor de software. A proposta do site é apresentar minha trajetória, experiências profissionais, tecnologias de trabalho e projetos em andamento de forma direta, responsiva e acessível.
 
-Currently, two official plugins are available:
+O portfólio reflete meu momento atual de carreira: uma base Full Stack construída com PHP, Laravel, JavaScript e MySQL, combinada com foco crescente em Back-end Java, Spring Boot, APIs REST e arquitetura de software.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sobre o site
 
-## Expanding the ESLint configuration
+- Página estática desenvolvida com HTML, CSS e JavaScript.
+- Interface responsiva para desktop e dispositivos móveis.
+- Conteúdo em português, com seções de apresentação, experiência, projetos e contato.
+- Estrutura simples, pensada para carregamento rápido e manutenção objetiva.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Principais temas apresentados
 
-- Configure the top-level `parserOptions` property like this:
+- Desenvolvimento Back-end com Java e Spring Boot.
+- Experiência Full Stack em sistemas web personalizados.
+- Interesse em arquitetura, domínio, qualidade de código e soluções manuteníveis.
+- Projetos pessoais em evolução, incluindo o Stratega.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Contato
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-
-
-- `Os colaboradores vivem para ajudar os outros.` Eu gosto de trabalhar em equipe e me orgulho de ser a pessoa certa para obter apoio, especialmente quando o desafio parece uma aventura. Fazer com que todos se sintam ouvidos é o meu superpoder. Eu me destaco em funções inovadoras centradas no desenvolvimento web, engenharia de inteligência artificial, engenharia de software e treinamento técnico.
-
-- `Collaborators live to help others.` You're a team player who takes pride in being the go-to for support, especially when the challenge looks like an adventure. Making everyone feel heard is your superpower. Experimental Collaborators excel in innovative roles centered around web development, artificial intelligence engineering, software engineering, and technical training.
+- LinkedIn: [linkedin.com/in/maxsuel-einstein](https://linkedin.com/in/maxsuel-einstein)
+- GitHub: [github.com/maxeinstein-dev](https://github.com/maxeinstein-dev)
+- E-mail: [maxsueleinstein.dev@gmail.com](mailto:maxsueleinstein.dev@gmail.com)

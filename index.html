@@ -1,13 +1,134 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <title>My Portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Maxsuel Einstein, desenvolvedor de software com experiência Full Stack e foco em Back-end Java, Front-end e arquitetura de software.">
+  <meta name="theme-color" content="#07111f">
+  <title>Maxsuel Einstein — Desenvolvedor de Software</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2307111f'/%3E%3Cpath d='M14 44V20h7l11 14 11-14h7v24h-8V32L32 45 22 32v12z' fill='%235eead4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Ir para o início">ME<span>.</span></a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav id="menu" aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#projetos">Projetos</a>
+      <a class="nav-cta" href="mailto:maxsueleinstein.dev@gmail.com">Contato <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Software · Back-end · Front-end · Arquitetura</p>
+        <h1 id="hero-title">Código sólido, do <em>domínio</em> à interface.</h1>
+        <p class="hero-text">Sou Maxsuel Einstein, desenvolvedor de software com experiência Full Stack. Estou aprofundando minha atuação em Back-end com Java e Spring Boot, sem abrir mão do Front-end e de uma visão ampla de arquitetura.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projetos">Conhecer projetos</a>
+          <a class="button button-ghost" href="#sobre">Mais sobre mim</a>
+        </div>
+      </div>
+      <div class="hero-panel" aria-label="Resumo profissional">
+        <p class="panel-number">01</p>
+        <div class="code-window" aria-hidden="true">
+          <div class="window-bar"><i></i><i></i><i></i></div>
+          <pre><code><b>const</b> developer = {
+  name: <span>"Maxsuel"</span>,
+  path: <span>"Software Engineering"</span>,
+  focus: [
+    <span>"Java & Spring Boot"</span>,
+    <span>"Front-end"</span>,
+    <span>"Arquitetura"</span>
+  ]
+};</code></pre>
+        </div>
+        <p class="panel-caption">Aracaju, Brasil · aberto ao mundo</p>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre" aria-labelledby="about-title">
+      <p class="section-index">02 / SOBRE</p>
+      <div class="section-grid">
+        <h2 id="about-title">Desenvolvo software pensando além da próxima entrega.</h2>
+        <div class="about-copy">
+          <p>Minha trajetória começou no desenvolvimento web e evoluiu para uma atuação Full Stack. Já trabalhei com sistemas personalizados, plataformas educacionais e um sistema legado de gestão de obras, atuando com PHP, Laravel, MySQL e regras de negócio processadas por procedures.</p>
+          <p>Agora direciono meus estudos e projetos para Java, Spring Boot e construção de APIs REST. Arquitetura de software é o elo entre os dois lados da minha carreira: quero construir soluções manuteníveis, testáveis e alinhadas ao domínio, atuando no Back-end com Java ou no Front-end com JavaScript e, progressivamente, TypeScript.</p>
+          <div class="skills" aria-label="Tecnologias e competências">
+            <span>Java</span><span>Spring Boot</span><span>PHP</span><span>Laravel</span><span>JavaScript</span><span>SQL & MySQL</span><span>Docker</span><span>Git</span><span>DDD</span><span>SOLID</span><span>JUnit & Mockito</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experiencia" aria-labelledby="experience-title">
+      <p class="section-index">03 / EXPERIÊNCIA</p>
+      <div class="section-grid">
+        <h2 id="experience-title">Experiência nos dois lados da aplicação.</h2>
+        <div class="timeline">
+          <article>
+            <div><p>2024 — atual</p><span>AlfamaWeb</span></div>
+            <div><h3>Desenvolvedor Full Stack</h3><p>Desenvolvimento estrutural e manutenção de sistemas web personalizados, com foco em qualidade de código, performance e otimizações de servidor e estrutura.</p></div>
+          </article>
+          <article>
+            <div><p>2024 — 2025</p><span>Innovatech Duo</span></div>
+            <div><h3>Estagiário de Desenvolvimento de Software</h3><p>Manutenção de sistema legado de gestão de obras, atuação no Back-end com PHP 7 e MySQL e criação de procedures para regras de negócio e dados complexos.</p></div>
+          </article>
+          <article>
+            <div><p>2023 — 2024</p><span>EducAZ</span></div>
+            <div><h3>Desenvolvedor Full Stack</h3><p>Manutenção de plataformas educacionais, resolução de bugs e desenvolvimento Back-end com PHP, Laravel e banco de dados SQL.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projetos" aria-labelledby="projects-title">
+      <div class="projects-heading">
+        <div><p class="section-index">04 / PROJETOS</p><h2 id="projects-title">Projetos pessoais</h2></div>
+        <p>Um espaço em evolução para registrar o que estou construindo e aprendendo.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-top"><span>Em desenvolvimento</span><span>01</span></div>
+          <div>
+            <p class="project-type">Produto pessoal</p>
+            <h3>Stratega</h3>
+            <p>Aplicação de planejamento financeiro para organizar carteiras, categorias e transações, explorando modelagem de domínio e uma arquitetura preparada para evoluir.</p>
+            <ul aria-label="Tecnologias"><li>Java</li><li>Spring Boot</li><li>REST API</li><li>Arquitetura</li></ul>
+          </div>
+          <a href="https://github.com/maxeinstein-dev/Stratega" target="_blank" rel="noreferrer" aria-label="Ver projeto Stratega no GitHub">Ver no GitHub <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="project-card next-project">
+          <div class="project-top"><span>Próximo projeto</span><span>02</span></div>
+          <div><p class="project-type">Em breve</p><h3>Novas ideias ganhando forma.</h3><p>Este espaço está reservado para o próximo projeto que sair do papel.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" aria-labelledby="contact-title">
+      <p class="section-index">05 / CONTATO</p>
+      <h2 id="contact-title">Vamos construir algo que valha a pena usar?</h2>
+      <p>Estou aberto a conversar sobre Back-end Java, Front-end, arquitetura de software e novas oportunidades.</p>
+      <div class="hero-actions contact-actions">
+        <a class="button button-primary" href="mailto:maxsueleinstein.dev@gmail.com">Enviar e-mail <span aria-hidden="true">↗</span></a>
+        <a class="button button-ghost" href="https://linkedin.com/in/maxsuel-einstein" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a class="button button-ghost" href="https://github.com/maxeinstein-dev" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#inicio">ME<span>.</span></a>
+    <p>Projetado e desenvolvido com intenção.</p>
+    <p>© <span id="year"></span> Maxsuel Einstein</p>
+  </footer>
+</body>
 </html>
