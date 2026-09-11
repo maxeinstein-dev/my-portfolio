@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfólio de Maxsuel Einstein, desenvolvedor de software com experiência Full Stack e foco em Back-end Java, Front-end e arquitetura de software.">
+  <meta name="description" content="Portfolio of Maxsuel Einstein, a software developer with Full Stack experience focused on Back-end Java, Front-end, and software architecture.">
   <meta name="theme-color" content="#07111f">
-  <title>Maxsuel Einstein — Desenvolvedor de Software</title>
+  <title>Maxsuel Einstein — Software Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -14,30 +14,36 @@
   <script src="script.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <a class="skip-link" href="#content" data-i18n="skipLink">Skip to content</a>
   <header class="site-header">
-    <a class="brand" href="#inicio" aria-label="Ir para o início">ME<span>.</span></a>
-    <button class="menu-button" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
-    <nav id="menu" aria-label="Navegação principal">
-      <a href="#sobre">Sobre</a>
-      <a href="#experiencia">Experiência</a>
-      <a href="#projetos">Projetos</a>
-      <a class="nav-cta" href="mailto:maxsueleinstein.dev@gmail.com">Contato <span aria-hidden="true">↗</span></a>
+    <a class="brand" href="#home" aria-label="Go to the beginning" data-i18n-aria-label="brandLabel">ME<span>.</span></a>
+    <nav id="menu" aria-label="Primary navigation" data-i18n-aria-label="navLabel">
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#experience" data-i18n="navExperience">Experience</a>
+      <a href="#projects" data-i18n="navProjects">Projects</a>
+      <a class="nav-cta" href="mailto:maxsueleinstein.dev@gmail.com"><span data-i18n="navContact">Contact</span> <span aria-hidden="true">↗</span></a>
     </nav>
+    <div class="header-actions">
+      <div class="language-switch" role="group" aria-label="Language selector" data-i18n-aria-label="languageSelector">
+        <button class="language-option" type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button class="language-option" type="button" data-lang="pt-BR" aria-pressed="false">PT</button>
+      </div>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="menu" data-i18n="menuButton">Menu</button>
+    </div>
   </header>
 
-  <main id="conteudo">
-    <section class="hero" id="inicio" aria-labelledby="hero-title">
+  <main id="content">
+    <section class="hero" id="home" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow"><span></span> Software · Back-end · Front-end · Arquitetura</p>
-        <h1 id="hero-title">Código sólido, do <em>domínio</em> à interface.</h1>
-        <p class="hero-text">Sou Maxsuel Einstein, desenvolvedor de software com experiência Full Stack. Estou aprofundando minha atuação em Back-end com Java e Spring Boot, sem abrir mão do Front-end e de uma visão ampla de arquitetura.</p>
+        <p class="eyebrow"><span></span> <span data-i18n="heroEyebrow">Software · Back-end · Front-end · Architecture</span></p>
+        <h1 id="hero-title"><span data-i18n="heroTitleBefore">Solid code, from</span> <em data-i18n="heroTitleEmphasis">domain</em> <span data-i18n="heroTitleAfter">to interface.</span></h1>
+        <p class="hero-text" data-i18n="heroText">I am Maxsuel Einstein, a software developer with Full Stack experience. I am deepening my work in Back-end development with Java and Spring Boot while keeping a strong Front-end foundation and a broad view of software architecture.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#projetos">Conhecer projetos</a>
-          <a class="button button-ghost" href="#sobre">Mais sobre mim</a>
+          <a class="button button-primary" href="#projects" data-i18n="heroPrimary">Explore projects</a>
+          <a class="button button-ghost" href="#about" data-i18n="heroSecondary">More about me</a>
         </div>
       </div>
-      <div class="hero-panel" aria-label="Resumo profissional">
+      <div class="hero-panel" aria-label="Professional summary" data-i18n-aria-label="heroPanelLabel">
         <p class="panel-number">01</p>
         <div class="code-window" aria-hidden="true">
           <div class="window-bar"><i></i><i></i><i></i></div>
@@ -47,78 +53,78 @@
   focus: [
     <span>"Java & Spring Boot"</span>,
     <span>"Front-end"</span>,
-    <span>"Arquitetura"</span>
+    <span data-i18n="codeFocusArchitecture">"Architecture"</span>
   ]
 };</code></pre>
         </div>
-        <p class="panel-caption">Aracaju, Brasil · aberto ao mundo</p>
+        <p class="panel-caption" data-i18n="heroCaption">Aracaju, Brazil · open to the world</p>
       </div>
     </section>
 
-    <section class="section about" id="sobre" aria-labelledby="about-title">
-      <p class="section-index">02 / SOBRE</p>
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <p class="section-index" data-i18n="aboutIndex">02 / ABOUT</p>
       <div class="section-grid">
-        <h2 id="about-title">Desenvolvo software pensando além da próxima entrega.</h2>
+        <h2 id="about-title" data-i18n="aboutTitle">I build software with more than the next delivery in mind.</h2>
         <div class="about-copy">
-          <p>Minha trajetória começou no desenvolvimento web e evoluiu para uma atuação Full Stack. Já trabalhei com sistemas personalizados, plataformas educacionais e um sistema legado de gestão de obras, atuando com PHP, Laravel, MySQL e regras de negócio processadas por procedures.</p>
-          <p>Agora direciono meus estudos e projetos para Java, Spring Boot e construção de APIs REST. Arquitetura de software é o elo entre os dois lados da minha carreira: quero construir soluções manuteníveis, testáveis e alinhadas ao domínio, atuando no Back-end com Java ou no Front-end com JavaScript e, progressivamente, TypeScript.</p>
-          <div class="skills" aria-label="Tecnologias e competências">
+          <p data-i18n="aboutParagraphOne">My path started in web development and evolved into Full Stack work. I have worked on custom systems, educational platforms, and a legacy construction management system, using PHP, Laravel, MySQL, and business rules processed through stored procedures.</p>
+          <p data-i18n="aboutParagraphTwo">I now direct my studies and projects toward Java, Spring Boot, and REST API design. Software architecture connects both sides of my career: I want to build maintainable, testable solutions aligned with the domain, whether working in Back-end with Java or Front-end with JavaScript and, progressively, TypeScript.</p>
+          <div class="skills" aria-label="Technologies and skills" data-i18n-aria-label="skillsLabel">
             <span>Java</span><span>Spring Boot</span><span>PHP</span><span>Laravel</span><span>JavaScript</span><span>SQL & MySQL</span><span>Docker</span><span>Git</span><span>DDD</span><span>SOLID</span><span>JUnit & Mockito</span>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section experience" id="experiencia" aria-labelledby="experience-title">
-      <p class="section-index">03 / EXPERIÊNCIA</p>
+    <section class="section experience" id="experience" aria-labelledby="experience-title">
+      <p class="section-index" data-i18n="experienceIndex">03 / EXPERIENCE</p>
       <div class="section-grid">
-        <h2 id="experience-title">Experiência nos dois lados da aplicação.</h2>
+        <h2 id="experience-title" data-i18n="experienceTitle">Experience across both sides of the application.</h2>
         <div class="timeline">
           <article>
-            <div><p>2024 — atual</p><span>AlfamaWeb</span></div>
-            <div><h3>Desenvolvedor Full Stack</h3><p>Desenvolvimento estrutural e manutenção de sistemas web personalizados, com foco em qualidade de código, performance e otimizações de servidor e estrutura.</p></div>
+            <div><p data-i18n="alfamaPeriod">2024 — present</p><span>AlfamaWeb</span></div>
+            <div><h3 data-i18n="fullStackRole">Full Stack Developer</h3><p data-i18n="alfamaDescription">Structural development and maintenance of custom web systems, with focus on code quality, performance, and server and architecture optimizations.</p></div>
           </article>
           <article>
             <div><p>2024 — 2025</p><span>Innovatech Duo</span></div>
-            <div><h3>Estagiário de Desenvolvimento de Software</h3><p>Manutenção de sistema legado de gestão de obras, atuação no Back-end com PHP 7 e MySQL e criação de procedures para regras de negócio e dados complexos.</p></div>
+            <div><h3 data-i18n="internRole">Software Development Intern</h3><p data-i18n="innovatechDescription">Maintenance of a legacy construction management system, Back-end work with PHP 7 and MySQL, and creation of stored procedures for business rules and complex data flows.</p></div>
           </article>
           <article>
             <div><p>2023 — 2024</p><span>EducAZ</span></div>
-            <div><h3>Desenvolvedor Full Stack</h3><p>Manutenção de plataformas educacionais, resolução de bugs e desenvolvimento Back-end com PHP, Laravel e banco de dados SQL.</p></div>
+            <div><h3 data-i18n="educazRole">Full Stack Developer</h3><p data-i18n="educazDescription">Maintenance of educational platforms, bug fixing, and Back-end development with PHP, Laravel, and SQL databases.</p></div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section projects" id="projetos" aria-labelledby="projects-title">
+    <section class="section projects" id="projects" aria-labelledby="projects-title">
       <div class="projects-heading">
-        <div><p class="section-index">04 / PROJETOS</p><h2 id="projects-title">Projetos pessoais</h2></div>
-        <p>Um espaço em evolução para registrar o que estou construindo e aprendendo.</p>
+        <div><p class="section-index" data-i18n="projectsIndex">04 / PROJECTS</p><h2 id="projects-title" data-i18n="projectsTitle">Personal projects</h2></div>
+        <p data-i18n="projectsIntro">A living space for recording what I am building and learning.</p>
       </div>
       <div class="project-grid">
         <article class="project-card featured">
-          <div class="project-top"><span>Em desenvolvimento</span><span>01</span></div>
+          <div class="project-top"><span data-i18n="projectStatus">In development</span><span>01</span></div>
           <div>
-            <p class="project-type">Produto pessoal</p>
+            <p class="project-type" data-i18n="projectType">Personal product</p>
             <h3>Stratega</h3>
-            <p>Aplicação de planejamento financeiro para organizar carteiras, categorias e transações, explorando modelagem de domínio e uma arquitetura preparada para evoluir.</p>
-            <ul aria-label="Tecnologias"><li>Java</li><li>Spring Boot</li><li>REST API</li><li>Arquitetura</li></ul>
+            <p data-i18n="strategaDescription">A financial planning application for organizing portfolios, categories, and transactions, exploring domain modeling and an architecture prepared to evolve.</p>
+            <ul aria-label="Technologies" data-i18n-aria-label="technologiesLabel"><li>Java</li><li>Spring Boot</li><li>REST API</li><li data-i18n="architectureSkill">Architecture</li></ul>
           </div>
-          <a href="https://github.com/maxeinstein-dev/Stratega" target="_blank" rel="noreferrer" aria-label="Ver projeto Stratega no GitHub">Ver no GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/maxeinstein-dev/Stratega" target="_blank" rel="noreferrer" aria-label="View Stratega project on GitHub" data-i18n-aria-label="strategaLinkLabel"><span data-i18n="githubLink">View on GitHub</span> <span aria-hidden="true">↗</span></a>
         </article>
         <article class="project-card next-project">
-          <div class="project-top"><span>Próximo projeto</span><span>02</span></div>
-          <div><p class="project-type">Em breve</p><h3>Novas ideias ganhando forma.</h3><p>Este espaço está reservado para o próximo projeto que sair do papel.</p></div>
+          <div class="project-top"><span data-i18n="nextProjectStatus">Next project</span><span>02</span></div>
+          <div><p class="project-type" data-i18n="soonType">Coming soon</p><h3 data-i18n="nextProjectTitle">New ideas taking shape.</h3><p data-i18n="nextProjectDescription">This space is reserved for the next project that moves from idea to implementation.</p></div>
         </article>
       </div>
     </section>
 
     <section class="contact" aria-labelledby="contact-title">
-      <p class="section-index">05 / CONTATO</p>
-      <h2 id="contact-title">Vamos construir algo que valha a pena usar?</h2>
-      <p>Estou aberto a conversar sobre Back-end Java, Front-end, arquitetura de software e novas oportunidades.</p>
+      <p class="section-index" data-i18n="contactIndex">05 / CONTACT</p>
+      <h2 id="contact-title" data-i18n="contactTitle">Shall we build something worth using?</h2>
+      <p data-i18n="contactText">I am open to conversations about Back-end Java, Front-end, software architecture, and new opportunities.</p>
       <div class="hero-actions contact-actions">
-        <a class="button button-primary" href="mailto:maxsueleinstein.dev@gmail.com">Enviar e-mail <span aria-hidden="true">↗</span></a>
+        <a class="button button-primary" href="mailto:maxsueleinstein.dev@gmail.com"><span data-i18n="emailButton">Send email</span> <span aria-hidden="true">↗</span></a>
         <a class="button button-ghost" href="https://linkedin.com/in/maxsuel-einstein" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
         <a class="button button-ghost" href="https://github.com/maxeinstein-dev" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
       </div>
@@ -126,8 +132,8 @@
   </main>
 
   <footer>
-    <a class="brand" href="#inicio">ME<span>.</span></a>
-    <p>Projetado e desenvolvido com intenção.</p>
+    <a class="brand" href="#home">ME<span>.</span></a>
+    <p data-i18n="footerText">Designed and developed with intention.</p>
     <p>© <span id="year"></span> Maxsuel Einstein</p>
   </footer>
 </body>
