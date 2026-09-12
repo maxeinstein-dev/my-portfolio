@@ -27,6 +27,22 @@ The content is intentionally written in English first because I am preparing for
 
 **Stratega** is a personal financial planning application designed to organize portfolios, categories, and transactions while exploring domain modeling and an architecture prepared to evolve.
 
+Links:
+
+- Live app: [stratega.maxsueleinstein.dev](https://stratega.maxsueleinstein.dev/)
+- Back-end Swagger: [stratega-back.maxsueleinstein.dev](https://stratega-back.maxsueleinstein.dev/)
+- Back-end repository: [github.com/maxeinstein-dev/Stratega](https://github.com/maxeinstein-dev/Stratega)
+- Front-end repository: [github.com/maxeinstein-dev/Stratega-Front](https://github.com/maxeinstein-dev/Stratega-Front)
+
+## Additional Project
+
+**Cuponomia** is an event-driven coupon microservices project with separate management and checkout validation services, Kafka events, independent databases, Swagger examples, and a recruiter-facing demo guide.
+
+Links:
+
+- Repository: [github.com/maxeinstein-dev/Cuponomia](https://github.com/maxeinstein-dev/Cuponomia/tree/feat/resilience4j-timeout)
+- Demo guide: [Cuponomia demo guide](https://github.com/maxeinstein-dev/Cuponomia/blob/feat/resilience4j-timeout/docs/DEMO_GUIDE.md)
+
 ## Contact
 
 - LinkedIn: [linkedin.com/in/maxsuel-einstein](https://linkedin.com/in/maxsuel-einstein)
