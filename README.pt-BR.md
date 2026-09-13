@@ -40,8 +40,9 @@ Links:
 
 Links:
 
-- Repositório: [github.com/maxeinstein-dev/Cuponomia](https://github.com/maxeinstein-dev/Cuponomia/tree/feat/resilience4j-timeout)
-- Guia demo: [Cuponomia demo guide](https://github.com/maxeinstein-dev/Cuponomia/blob/feat/resilience4j-timeout/docs/DEMO_GUIDE.md)
+- Swagger/API: [cuponomia.maxsueleinstein.dev](https://cuponomia.maxsueleinstein.dev/)
+- Repositório: [github.com/maxeinstein-dev/Cuponomia](https://github.com/maxeinstein-dev/Cuponomia)
+- Guia demo: [Cuponomia demo guide](https://github.com/maxeinstein-dev/Cuponomia/blob/master/docs/DEMO_GUIDE.md)
 
 ## Contato
 
